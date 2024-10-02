@@ -18,7 +18,7 @@ Add your answers to this markdown file.
 2. reason number two is the actual implementation of the algortihm could be very bad even if its fast asymptotically it could be a slow implementation of the algorithm
 3. reason number 3 is the hardware that is being used varies a lot and a very quick asymptotic algorithm could be a lot slower or faster depending on what hardware it is being run on.
 
-I would guess that it takes 50 seconds in a generic case because if it is just a O(n) type of analysis then it should move up linearly and if there is 1000 to 10000 then the time should move up by ten times giving 5 to 50 seconds
+I would guess that it takes about 7 seconds in a generic case because binary search is O(log n) type of analysis then it should move up in logrithmic fasion and if there is 1000 to 10000 then the time should move up by about 1.4 times making the time go from 5 seconds to 7 seconds
 
 1. reason number 1 it might take 100 secodns is that the asymptotic complexity is higher than linear and might go up exponentially with larger data sets
 2. reason number 2 is that 10000 might be to big of a data set for the specific hardware or machine making it slow down due to memory constraints
